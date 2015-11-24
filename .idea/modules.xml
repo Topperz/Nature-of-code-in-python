@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Neuralnetwork.iml" filepath="$PROJECT_DIR$/.idea/Neuralnetwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../neuralnetwork 2.7/.idea/neuralnetwork 2.7.iml" filepath="$PROJECT_DIR$/../neuralnetwork 2.7/.idea/neuralnetwork 2.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pygame/.idea/pygame.iml" filepath="$PROJECT_DIR$/../pygame/.idea/pygame.iml" />
+    </modules>
+  </component>
+</project>
