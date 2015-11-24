@@ -96,7 +96,7 @@ bluelist = []
 linedraw = []
 
 
-
+print ("testest")
 
 # Loop until the user clicks the close button.
 done = False
