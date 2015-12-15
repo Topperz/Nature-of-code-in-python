@@ -210,7 +210,7 @@ while not done:
     mouse.sub(hu)
     mouse.normalize()
     mouse.mult(2)
-    f = a.attract(mover2)
+
     mover2.applyForce(mouse)
 
     mover.draw()
@@ -227,7 +227,6 @@ while not done:
     mover2.checkEdges()
 
     pygame.display.flip()
-
     # --- Limit to 60 frames per second
     clock.tick(30)
 

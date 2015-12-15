@@ -31,7 +31,7 @@ xspeed = 2
 yspeed = 4
 
 
-##### Ball with vectors
+##### Creating the PVector class, adding functions as needed.
 
 class PVector:
 
@@ -120,8 +120,10 @@ class Mover:
         #acceleration.mult(random.uniform(-3,3))
         #self.velocity.add(acceleration)
 
-        ##### Chase mouse
+        ##### Chase/flee mouse
         #mouse = PVector(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])
+
+        #### Swap evil.location with mouse.location if needed
         direction = PVector.staticSub(evil.location, mover.location)
         direction.normalize()
         direction.mult(self.multiplier)

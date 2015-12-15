@@ -97,8 +97,6 @@ class PVector:
         return PVector(self.x, self.y)
 
 
-
-
 def checkWind():
     r = random.random()
     if r < 0.5:
